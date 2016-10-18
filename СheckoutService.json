@@ -1,0 +1,179 @@
+{
+    "guid": "760874c5-a419-458d-b4da-2f95685800ba",
+    "checkoutData": {
+        "cart": {
+            "data": {
+                "cartId": "ozon",
+                "splits": [
+                    {
+                        "minDeliveryDate": "2016-10-23T17:36:29+03:00",
+                        "items": [
+                            {
+                                "id": 1234,
+                                "price": 1234,
+                                "quantity": 123,
+                                "marketing": 1
+                                /* productModel fields  */
+                            }
+                        ]
+                    }
+                ],
+                "cartSummary": {
+                    "clientAccount": 0,
+                    "scoresAccount": 0,
+                    "discount": 0,
+                    "itemsSumm": 6018,
+                    "totalCost": 6018,
+                    "totalWieght": 6190,
+                    "itemsQuantity": 0,
+                    "scoresToAdd": 0,
+                    "scoresToPay": 300
+                }
+            }
+        },
+        "delivery": {
+            "data": {
+                "variants": [
+                    {
+                        "isActive": true,
+                        "variantId": "786",
+                        "groupVariantId": "3",
+                        "deliveryPointAddressId": "570191",
+                        "groupAreaId": "-1",
+                        "descriptionDetailId": "24143041",
+                        "positionIndex": "-1",
+                        "name": "Самовывоз",
+                        "details": "[empty]",
+                        "address": "г. Смоленск, ул. Верхне-Сенная, д.4.",
+                        "subwayStation": "",
+                        "deliveryImagePath": "[empty]",
+                        "deliveryConfirmName": "",
+                        "alternativeName": "",
+                        "itemsCost": "0",
+                        "deliveryCost": "167",
+                        "totalCost": "-1",
+                        "fullDeliveryCost": "167",
+                        "expectedDeliveryDate": "2016-10-23T17:36:29+03:00",
+                        "deliveryStatusDiscount": false,
+                        "hasPoint": true,
+                        "hasIntervals": false
+                    },
+                    {
+                        "isActive": false,
+                        "variantId": "789",
+                        "groupVariantId": "3",
+                        "deliveryPointAddressId": "570191",
+                        "groupAreaId": "-1",
+                        "descriptionDetailId": "24143041",
+                        "positionIndex": "-1",
+                        "name": "Самовывоз",
+                        "details": "[empty]",
+                        "address": "г. Смоленск, ул. Верхне-Сенная, д.5.",
+                        "subwayStation": "",
+                        "deliveryImagePath": "[empty]",
+                        "deliveryConfirmName": "",
+                        "alternativeName": "",
+                        "itemsCost": "0",
+                        "deliveryCost": "167",
+                        "totalCost": "-1",
+                        "fullDeliveryCost": "167",
+                        "expectedDeliveryDate": "2016-10-23T17:36:29+03:00",
+                        "deliveryStatusDiscount": false,
+                        "hasPoint": true,
+                        "hasIntervals": false
+                    },
+                    {
+                        "isActive": false,
+                        "variantId": "790",
+                        "groupVariantId": "3",
+                        "deliveryPointAddressId": "570191",
+                        "groupAreaId": "-1",
+                        "descriptionDetailId": "24143041",
+                        "positionIndex": "-1",
+                        "name": "Почта Родезии",
+                        "details": "[empty]",
+                        "address": "г. Смоленск, ул. Верхне-Сенная, д.5.",
+                        "subwayStation": "",
+                        "deliveryImagePath": "[empty]",
+                        "deliveryConfirmName": "",
+                        "alternativeName": "",
+                        "itemsCost": "0",
+                        "deliveryCost": "167",
+                        "totalCost": "-1",
+                        "fullDeliveryCost": "167",
+                        "expectedDeliveryDate": "2016-10-23T17:36:29+03:00",
+                        "deliveryStatusDiscount": false,
+                        "hasPoint": true,
+                        "hasIntervals": false
+                    }
+                ]
+            }
+        },
+        "payment": {
+            "data": {
+                "payments": [
+                    {
+                        "isActive": true,
+                        "additionalInfo": "<small> Мы принимаем карты Visa, American Express и MasterCard. При получении заказа вам понадобится паспорт. <a href=\"javascript://\" onClick=\"showInfo(171531);\"><img src=\"/graphics/ozon/order/question.gif\" alt=\"подробнее\" width=\"14\" height=\"14\" border=\"0\"></a></small><br>",
+                        "deliverySumm": "167",
+                        "discount": "0",
+                        "fullOrderSumm": "6185",
+                        "infoDetailId": "4119669",
+                        "itemSumm": "6018",
+                        "menuIconPath": "http://static.ozone.ru/mobileapp/static/payment_variants/card.png",
+                        "name": "Банковской картой онлайн ",
+                        "noClientAccountPayment": "0",
+                        "canUseAccount": true,
+                        "paymentTypeId": "3",
+                        "requiredMobilePhone": false,
+                        "groupId": "2",
+                        "groupName": "Карты оплаты",
+                        "clientScoreCanUseScore": true,
+                        "usingScores": "0",
+                        "usingAccountAmount": "0"
+                    },
+                    {
+                        "isActive": false,
+                        "additionalInfo": "<small> Мы НЕ принимаем карты Visa, American Express и MasterCard. При получении заказа вам понадобится паспорт. <a href=\"javascript://\" onClick=\"showInfo(171531);\"><img src=\"/graphics/ozon/order/question.gif\" alt=\"подробнее\" width=\"14\" height=\"14\" border=\"0\"></a></small><br>",
+                        "deliverySumm": "167",
+                        "discount": "0",
+                        "fullOrderSumm": "6185",
+                        "infoDetailId": "4119669",
+                        "itemSumm": "6018",
+                        "menuIconPath": "http://static.ozone.ru/mobileapp/static/payment_variants/card.png",
+                        "name": "Наличными",
+                        "noClientAccountPayment": "0",
+                        "canUseAccount": true,
+                        "paymentTypeId": "3",
+                        "requiredMobilePhone": false,
+                        "groupId": "2",
+                        "groupName": "Карты оплаты",
+                        "clientScoreCanUseScore": true,
+                        "usingScores": "0",
+                        "usingAccountAmount": "0"
+                    }
+                ]
+            }
+        },
+        "addressee": {
+            "data": {
+                "fields": [
+                    {
+                        "id": "",
+                        "type": "",
+                        "mask": "",
+                        "regExp": "",
+                        "value": ""
+                    },
+                    {
+                        "id": "",
+                        "type": "",
+                        "mask": "",
+                        "regExp": "",
+                        "value": ""
+                    }
+                ]
+            }
+        }
+    }
+}
