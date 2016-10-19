@@ -1,0 +1,123 @@
+{
+    "splits": [
+        {
+            "sets": [
+                {
+                    "id": 1,
+                    "items": [
+                        {
+                            "id": 123456,
+                            "quantity": 1,
+                            "price": 200,
+                            "discountPrice": 100,
+                            "freeRest": 10,
+                            "totalRest": 999
+                        }
+                    ]
+                }
+            ],
+            "summary": {
+                "clientAccount": 0,
+                "scoresAccount": 0,
+                "discount": 0,
+                "itemsSumm": 6018,
+                "totalCost": 6018,
+                "totalWieght": 6190,
+                "itemsQuantity": 0,
+                "scoresToAdd": 0,
+                "scoresToPay": 300
+            },
+            "deliveryTypes": [
+                {
+                    "id": 1,
+                    "isSelected": true,
+                    "date": "01.01.2017",
+                    "minPrice": 100,
+                    "maxPrice": 300,
+                    "info": {
+                        "name": "Самовывоз",
+                        "icon": "//1.png",
+                        "description": "Самовывоз"
+                    },
+                    "deliveryVariants": [
+                        {
+                            "id": 3,
+                            "isSelected": true,
+                            "price": 100,
+                            "date": "01.01.2017",
+                            "sets": [
+                                {
+                                    "id": 1,
+                                    "price": 100,
+                                    "date": "01.01.2017"
+                                }
+                            ],
+                            "info": {
+                                "name": "ПВЗ 1",
+                                "metro": "Алексеевская",
+                                "address": "г. Москва, ул. Вавилова, д.4",
+                                "workTime": "пн-пт 9.00-20.00"
+                            },
+                            "paymentTypes": [
+                                {
+                                    "id": 1,
+                                    "isSelected": true,
+                                    "info": {
+                                        "name": "При получении",
+                                        "icon": "//1.png",
+                                        "description": "наличными или картой"
+                                    },
+                                    "paymentVariants": [
+                                        {
+                                            "id": 2,
+                                            "isSelected": true
+                                        },
+                                        {
+                                            "id": 12,
+                                            "isSelected": false
+                                        }
+                                    ]
+                                },
+                                {
+                                    "id": 2,
+                                    "isSelected": false
+                                }
+                            ],
+                            "timeSlots": [
+                                {
+                                    "id": "b3bf6a73-c2b7-4b17-a472-d320dd87a1f0",
+                                    "isSelected": true,
+                                    "dateFrom": "01.01.2017T16:00:00",
+                                    "dateTo": "01.01.2017T20:00:00",
+                                    "timeLimit": "12:00:00",
+                                    "enable": true
+                                },
+                                {
+                                    "id": "c92bc78b-dbe7-4205-b771-7e6bd2120584",
+                                    "isSelected": false,
+                                    "dateFrom": "01.01.2017T20:00:00",
+                                    "dateTo": "01.01.2017T24:00:00",
+                                    "timeLimit": "14:00:00",
+                                    "enable": true
+                                }
+                            ]
+                        },
+                        {
+                            "id": 4,
+                            "isSelected": false,
+                            "price": 300,
+                            "date": "02.01.2017"
+                        },
+                        {
+                            "id": 2,
+                            "isSelected": false,
+                            "date": "10.01.2017",
+                            "minPrice": 50,
+                            "maxPrice": 150
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}
