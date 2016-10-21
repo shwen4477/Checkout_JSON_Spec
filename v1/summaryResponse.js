@@ -12,12 +12,8 @@
                     "quantity" : int,             // Количество
                     "price" : decimal,            // Цена одной единицы товара
                     "discount" : decimal,         // Скидка за одну единицу товара
-                    "discountPrice" : decimal,    // Цена одной единицы товара с учётом скидки
-                    
-                    "totalPrice": decimal,        // Суммарная цена за всё количество
-                    "totalDiscount": decimal,     // Суммарная скидка за всё количество
-                    "totalDiscountPrice" : int,   // Суммарная цена со скидкой, если таковая имеется
-                    
+                    "discountedPrice" : decimal,    // Цена одной единицы товара с учётом скидки
+                                       
                     "availableStock" : int,       // Сколько в хорошей доступности
                     "totalStock" : int            // Сколько всего
                 }  
@@ -86,17 +82,19 @@
        "marketingActions" :                          //Сработавшие маркетинговые акции
        [
            {
-               "id" : int,                              //ID акции
-               "discountValue" : decimal,                //Сколько скинули
-               "type" : ("delivery" | "items"),      //Тип маркетинговой акции (на доставку, на товары)
+               "id" : int,                                                  //ID акции
+               "discountValue" : decimal,                                   //Сколько скинули
+               "type" : ("delivery" | "items" | "payment" | "address"),     //Тип маркетинговой акции (на доставку, на товары)
            }
        ],      
        "summary":
         {
-          "weight": double, //Вес
-          "itemsPrice": double, //Цена за товары
-          "totalPrice" : double, //Цена за весь заказ
-          "availablePoints": decimal, //Сколько баллов можно потратить
-          "availableAccount" : decimal     //Сколько денег с ПС можно потратить
+          "weight": double,                 //Вес
+          "itemsPrice": double,             //Цена за товары
+          "totalPrice": decimal,            // Суммарная цена за всё количество
+          "totalDiscount": decimal,         // Суммарная скидка за всё количество
+          "totalDiscountedPrice" : int,     // Суммарная цена со скидкой, если таковая имеется
+          "availablePoints": decimal,       //Сколько баллов можно потратить
+          "availableAccount" : decimal      //Сколько денег с ПС можно потратить
         }
 }
