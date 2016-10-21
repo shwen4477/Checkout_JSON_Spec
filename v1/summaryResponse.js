@@ -2,14 +2,14 @@
     "splits" :                   //Массив наборов товаров при разном количестве отправлений
     [
         {
-            "id" : int,
+            "id" : int, // ID сета
             "deliveryDate": string,
-            "price": decimal,       //ID сета
+            "price": decimal,      
             "items" :
             [
                 {
-                    "id" : int,                   //ID товара
-                    "quantity" : int,             //Количество
+                    "id" : int,                   // ID товара
+                    "quantity" : int,             // Количество
                     "price" : decimal,            // Цена одной единицы товара
                     "discount" : decimal,         // Скидка за одну единицу товара
                     "discountPrice" : decimal,    // Цена одной единицы товара с учётом скидки
@@ -18,8 +18,8 @@
                     "totalDiscount": decimal,     // Суммарная скидка за всё количество
                     "totalDiscountPrice" : int,   // Суммарная цена со скидкой, если таковая имеется
                     
-                    "availableStock" : int,       //Сколько в хорошей доступности
-                    "totalStock" : int            //Сколько всего
+                    "availableStock" : int,       // Сколько в хорошей доступности
+                    "totalStock" : int            // Сколько всего
                 }  
             ]
         }
