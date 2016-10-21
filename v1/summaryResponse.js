@@ -1,19 +1,25 @@
 {
-    "sets" :                   //Массив наборов товаров при разном количестве отправлений
+    "splits" :                   //Массив наборов товаров при разном количестве отправлений
     [
         {
             "id" : int,
-            "date": string,
+            "deliveryDate": string,
             "price": decimal,       //ID сета
             "items" :
             [
                 {
-                    "id" : int,                     //ID товара
+                    "id" : int,                   //ID товара
                     "quantity" : int,             //Количество
-                    "price" : decimal,            //Цена
-                    "discountPrice" : int,        //Цена со скидкой, если таковая имеется
-                    "freeRest" : int,             //Сколько в хорошей доступности
-                    "totalRest" : int             //Сколько всего
+                    "price" : decimal,            // Цена одной единицы товара
+                    "discount" : decimal,         // Скидка за одну единицу товара
+                    "discountPrice" : decimal,    // Цена одной единицы товара с учётом скидки
+                    
+                    "totalPrice": decimal,        // Суммарная цена за всё количество
+                    "totalDiscount": decimal,     // Суммарная скидка за всё количество
+                    "totalDiscountPrice" : int,   // Суммарная цена со скидкой, если таковая имеется
+                    
+                    "availableStock" : int,       //Сколько в хорошей доступности
+                    "totalStock" : int            //Сколько всего
                 }  
             ]
         }
