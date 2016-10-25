@@ -83,9 +83,11 @@
        "marketingActions" :                          //Сработавшие маркетинговые акции
        [
            {
-               "id" : int,                                                  //ID акции
+               "id" : int,                                             //ID акции
+               "title": string,
+               // "relation": { id : int } Спорное поле, для обсуждения, нужно чтобы показывать отношение между акцией и то, на чем она сработала
                "discountValue" : decimal,                                   //Сколько скинули
-               "type" : ("delivery" | "items" | "payment" | "address"),     //Тип маркетинговой акции (на доставку, на товары)
+               "type" : ("delivery" | "items" | "payment" | "address" | "time"),     //Тип маркетинговой акции (на доставку, на товары)
            }
        ],      
        "summary":
