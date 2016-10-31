@@ -104,6 +104,7 @@
           "totalDiscount": decimal,         // Суммарная скидка за всё количество
           "totalDiscountedPrice" : int,     // Суммарная цена со скидкой, если таковая имеется
           "availablePoints": decimal,       //Сколько баллов можно потратить
-          "availableAccount" : decimal      //Сколько денег с ПС можно потратить
+          "availableAccount" : decimal,      //Сколько денег с ПС можно потратить
+          "deliveryPrice": double            // Стоиомость доставки, если стомость не определена, поле не возвращается       
         }
 }
