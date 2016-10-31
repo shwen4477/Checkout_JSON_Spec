@@ -7,7 +7,7 @@
     "addressTail": {
       "name": "AddressTail",
       "isRequired": false, // обязательно ли данное поля
-      "specialValidation": false, // требуется ли специальная валидация
+      "specialValidation": false, // требуется ли специальная валидация, например "zip" для zip-кодов
       "isReadOnly": false,
       "language": "rus" // язык, на котором допускается ввод
     },
@@ -120,7 +120,7 @@
     "zipCode": {
       "name": "ZipCode",
       "isRequired": false,
-      "specialValidation": false,
+      "specialValidation": "zip",
       "isReadOnly": false,
       "language": "rus"
     }
