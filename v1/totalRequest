@@ -1,0 +1,16 @@
+{
+	"areaId" : int,  //Идентификатор населенного пункт
+	"items": [
+		  {
+			  "id" : int, 				//Идентификатор товара
+			  "quantity" : int 			//Кол-во
+	   }
+],
+	"deliveryVariantId" : int, 
+	"paymentVariantId" : int,
+	"payment":
+		    {
+			    "usedPoints": decimal,    //Количество использованных баллов для оплаты заказа
+			    "usedUserAccount" : decimal   //Количество использованных средств с ПС для оплаты заказа
+		    }
+}
