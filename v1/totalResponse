@@ -1,0 +1,23 @@
+{
+    "marketingActions":                   //Сработавшие маркетинговые акции
+       [
+           {
+               "id" : int,                                             //ID акции
+               "title": string,
+               // "relation": { id : int } Спорное поле, для обсуждения, нужно чтобы показывать отношение между акцией и то, на чем она сработала
+               "discountValue" : decimal,                                   //Сколько скинули
+               "type" : ("delivery" | "items" | "payment" | "address" | "time"),     //Тип маркетинговой акции (на доставку, на товары)
+           }
+       ],      
+       "summary":
+        {
+          "weight": double,                     //Вес
+          "itemsPrice": double,                 //Цена за товары
+          "totalPrice": decimal,                // Суммарная цена за всё количество
+          "totalDiscount": decimal,             // Суммарная скидка за всё количество
+          "totalDiscountedPrice" : int,         // Суммарная цена со скидкой, если таковая имеется
+          "availablePoints": decimal,            //Сколько баллов можно потратить
+          "availableAccount" : decimal,           //Сколько денег с ПС можно потратить
+          "deliveryPrice": (double || undefined)   // Стоиомость доставки, если стомость не определена, поле не возвращается       
+        }
+}
