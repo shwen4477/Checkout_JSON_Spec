@@ -15,7 +15,8 @@
                         "name" : string,
                         "address": string,      //Адрес в случае ПВЗ
                         "metro": string,        //Ближайшая станция метро в случае ПВЗ
-                        "schedule": string      //Расписание работы (а-ля пн-пт с 00:01 до 00:02 etc)
+                        "schedule": string,      //Расписание работы (а-ля пн-пт с 00:01 до 00:02 etc)
+                        "storageLife": string    // Срок хранения заказа    
                     } 
 
                 }
