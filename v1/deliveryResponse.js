@@ -10,7 +10,8 @@
                 {
                     "id" : int,               //ID Способа доставки
                     "price" : decimal,        //Стоимость доставки
-                    "details":
+                    "deliveryDate": isoDate,  // Дата доставки    
+                    "details": 
                     {
                         "name" : string,
                         "address": string,      //Адрес в случае ПВЗ
